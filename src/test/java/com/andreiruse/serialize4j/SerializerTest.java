@@ -1,3 +1,5 @@
+package com.andreiruse.serialize4j;
+
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;

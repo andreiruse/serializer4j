@@ -1,4 +1,4 @@
-package custom;
+package com.andreiruse.serialize4j.custom;
 
 public interface SerializableType {
   public boolean isType(Object object);
