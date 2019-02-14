@@ -1,4 +1,4 @@
-package custom;
+package com.andreiruse.serialize4j.custom;
 
 public class StringType implements SerializableType {
   public static final Class MATCHING_TYPE = String.class;

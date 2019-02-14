@@ -1,3 +1,5 @@
+package com.andreiruse.serialize4j;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
@@ -5,8 +7,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import custom.SerializableType;
-import custom.StringType;
+import com.andreiruse.serialize4j.custom.SerializableType;
+import com.andreiruse.serialize4j.custom.StringType;
 
 public class Serializer {
 
