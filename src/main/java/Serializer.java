@@ -10,7 +10,9 @@ import custom.StringType;
 
 public class Serializer {
 
-  private static final List<SerializableType> CUSTOM_SERIALIZERS = Arrays.asList(new StringType());
+  private static final List<SerializableType> CUSTOM_SERIALIZERS = Arrays.asList(
+      new StringType()
+  );
 
   public static String serialize(Object o, int levels) throws IllegalAccessException {
     return serialize(o, levels, 0).toString();
